@@ -1,18 +1,14 @@
-# pull official base image
-FROM node:alpine
-
-# set working directory
+# build environment
+FROM node:alpine as build
 WORKDIR /app
-
-# add `/app/node_modules/.bin` to $PATH
 ENV PATH /app/node_modules/.bin:$PATH
-
-# install app dependencies
 COPY package.json ./
-RUN yarn 
-
-# add app
+RUN yarn
 COPY . ./
+RUN yarn run build
 
-# start app
-CMD ["yarn", "start"]
+# production environment
+FROM nginx:stable-alpine
+COPY --from=build /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
