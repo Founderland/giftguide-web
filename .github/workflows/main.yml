@@ -27,6 +27,6 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: giftguide-web
         environment_name: Giftguideweb-env
-        version_label: "giftguide-web-0.1"
+        version_label: "giftguide-web-0.0.1"
         region: eu-west-1
         deployment_package: deploy.zip
