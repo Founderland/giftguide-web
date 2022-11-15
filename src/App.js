@@ -202,7 +202,7 @@ function App() {
                 class='object-cover rounded-lg'
                 src={littleOnes}
                 alt=''
-                className='max-w-xl shadow-xl'
+                className='max-w-md lg:max-w-xl shadow-xl'
               />
             </div>
           </div>
@@ -223,7 +223,7 @@ function App() {
                 class='object-cover rounded-lg'
                 src={seflCare}
                 alt=''
-                className='max-w-xl shadow-xl'
+                className='max-w-md lg:max-w-xl shadow-xl'
               />
             </div>
           </div>
@@ -244,7 +244,7 @@ function App() {
                 class='object-cover rounded-lg'
                 src={home}
                 alt=''
-                className='max-w-xl shadow-xl'
+                className='max-w-md lg:max-w-xl shadow-xl'
               />
             </div>
           </div>
@@ -265,7 +265,7 @@ function App() {
                 class='object-cover rounded-lg'
                 src={happenings}
                 alt=''
-                className='max-w-xl shadow-xl'
+                className='max-w-md lg:max-w-xl shadow-xl'
               />
             </div>
           </div>
@@ -286,7 +286,7 @@ function App() {
                 class='object-cover rounded-lg'
                 src={adventure}
                 alt=''
-                className='max-w-xl shadow-xl'
+                className='max-w-md lg:max-w-xl shadow-xl'
               />
             </div>
           </div>
@@ -307,7 +307,7 @@ function App() {
                 class='object-cover rounded-lg'
                 src={beautyBody}
                 alt=''
-                className='max-w-xl shadow-xl'
+                className='max-w-md lg:max-w-xl shadow-xl'
               />
             </div>
           </div>
@@ -328,7 +328,7 @@ function App() {
                 class='object-cover rounded-lg'
                 src={foodDrinks}
                 alt=''
-                className='max-w-xl shadow-xl'
+                className='max-w-md lg:max-w-xl shadow-xl'
               />
             </div>
           </div>
