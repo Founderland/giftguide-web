@@ -203,7 +203,7 @@ function App() {
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 lg:grid-rows-5'>
             <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9 text-white bg-black'>
               <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-4'>
-                <h1 className='bg-flime text-black p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-4 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+                <h1 className=' p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-4 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
                   👶👧🧒 It’s all fun and games for the little humans in our
                   lives. You’ll find puzzles, books, dolls, toys and educational
                   activities to keep the tiny minds entertained in 2023 - both
@@ -272,7 +272,7 @@ function App() {
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-5'>
             <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black '>
               <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-5'>
-                <h1 className='bg-fblue p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-1 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+                <h1 className='p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-1 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
                   🤟💙 💆 Treat them (and yourself!) to coaching and guided
                   sessions on relationship building, wellness training, and
                   anti-stress practices.
@@ -409,7 +409,7 @@ function App() {
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9 text-white bg-black '>
               <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-5'>
-                <h1 className='bg-fred p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-1 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+                <h1 className='p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-1 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
                   📲 ✈️ 📅 This list is for the doers: For the people who can
                   not stop doing, learning, and growing and somehow keep it all
                   together.
@@ -476,7 +476,7 @@ function App() {
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9 text-white bg-black'>
               <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-4'>
-                <h1 className='bg-flime text-black p-6 mt-1 text-grotesk font-normal text-base lg:text-xl lg:row-start-4 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+                <h1 className='p-6 mt-1 text-grotesk font-normal text-base lg:text-xl lg:row-start-4 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
                   ⛰🚴‍♀️🌻 For outdoor lovers, flower-children, and
                   adventure-seekers! Enjoy everything from city-tours, curated
                   vacation homes and subscriptions to grow your garden.
@@ -543,7 +543,7 @@ function App() {
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-5'>
             <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black '>
               <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-5'>
-                <h1 className='bg-fpink p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-1 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+                <h1 className='p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-1 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
                   💃💅🕺 From hair to health, to coaching and clothes… these
                   gifts are for those who love to pamper and prosper!
                 </h1>
@@ -622,8 +622,8 @@ function App() {
         <div className='max-w-5xl mx-auto lg:mt-8'>
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9 text-white bg-black'>
-              <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-4'>
-                <h1 className='bg-fblue p-6 mt-1 text-grotesk font-normal text-base lg:text-xl lg:row-start-4 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+              <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-5'>
+                <h1 className='p-6 mt-1 text-grotesk font-normal text-base lg:text-xl lg:row-start-5 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
                   🍷🫖🍰 This list has something for literally everyone: For the
                   foodies, cocktail lovers, wine-o’s, bio-babes, and more! You
                   may even find something to #treatyoself this holiday season.
@@ -631,111 +631,107 @@ function App() {
                 <div className='px-4 pt-4 lg:row-start-1 lg:row-span-3 lg:col-span-1 lg:col-start-3'>
                   <li className='py-1'>
                     <a
-                      href='https://www.staycationcollection.com/'
+                      href='https://www.noguiltbakes.co.uk/'
                       rel='noreferrer'
                       target='_blank'
                       className='underline uppercase font-bold'
                     >
-                      Staycation Collection
+                      No Guilt Bakes
                     </a>
                     <p className='text-xs text-justify pt-1'>
-                      A travel agency for the digital age. Give a membership to
-                      a curated collection of 150+ cabins, hotels and
-                      Ferienwohnungen, as well as personalised recommendations
-                      of where to go.
+                      Low carb and keto treats that are deliciously tasty and
+                      conveniently packaged.
                     </p>
                   </li>
                   <li className='py-1'>
                     <a
-                      href='http://www.bloommag.co.uk/'
+                      href='http://www.vintrail.com/'
                       rel='noreferrer'
                       target='_blank'
                       className='underline uppercase font-bold'
                     >
-                      Bloom Magazine
+                      Vintrail
                     </a>
                     <p className='text-xs text-justify pt-1'>
-                      Books, Magazine subscriptions, and all things flowers!
+                      Offering a selection of French wines from our SaaS
+                      marketplace. Wine experiences and wine market with over
+                      1,000 wines!
                     </p>
                   </li>
                   <li className='py-1'>
                     <a
-                      href='https://www.zewdi.de/'
+                      href='https://vouchers.greenwichpantry.com/'
                       rel='noreferrer'
                       target='_blank'
                       className='underline uppercase font-bold'
                     >
-                      Zewdi
+                      Greenwich pantry
                     </a>
                     <p className='text-xs text-justify pt-1'>
-                      An Afrodiaspora-friendly travel company ensures more
-                      inclusion. For this reason, my company focuses on travel
-                      for PoC and aims to create a safe place for black
-                      travelers. Book tours and experiences!
+                      Cooking gifts and gift vouchers for all kind of
+                      food-lovers!
                     </p>
                   </li>
                   <li className='py-1'>
                     <a
-                      href='https://www.zewdi.de/'
+                      href='https://www.theenk-tea.com/'
                       rel='noreferrer'
                       target='_blank'
                       className='underline uppercase font-bold'
                     >
-                      Zewdi
+                      THEENK TEA
                     </a>
                     <p className='text-xs text-justify pt-1'>
-                      An Afrodiaspora-friendly travel company ensures more
-                      inclusion. For this reason, my company focuses on travel
-                      for PoC and aims to create a safe place for black
-                      travelers. Book tours and experiences!
+                      Teas and wellness gift boxes, created by nature & backed
+                      by science
+                    </p>
+                  </li>
+                </div>
+                <div className='flex  space-x-4 px-4 pt-4 lg:row-start-4 lg:row-span-1 lg:col-span-full lg:col-start-1'>
+                  <li className='py-1'>
+                    <a
+                      href='https://ikook.co.uk/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      iKooK
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      Easy way to book an affordable #privatechef that will
+                      cater to your needs. (UK)
                     </p>
                   </li>
                   <li className='py-1'>
                     <a
-                      href='https://www.zewdi.de/'
+                      href='https://calenodrinks.com/'
                       rel='noreferrer'
                       target='_blank'
                       className='underline uppercase font-bold'
                     >
-                      Zewdi
+                      Caleño Drinks
                     </a>
                     <p className='text-xs text-justify pt-1'>
-                      An Afrodiaspora-friendly travel company ensures more
-                      inclusion. For this reason, my company focuses on travel
-                      for PoC and aims to create a safe place for black
-                      travelers. Book tours and experiences!
+                      Fuelled by Latin positivity, Ellie Webb set out to infuse
+                      the sun-drenched flavours of Colombia with her
+                      non-alcoholic spirits.
                     </p>
                   </li>
                   <li className='py-1'>
                     <a
-                      href='https://www.zewdi.de/'
+                      href='#REF'
                       rel='noreferrer'
                       target='_blank'
                       className='underline uppercase font-bold'
                     >
-                      Zewdi
+                      Era Zero Waste
                     </a>
                     <p className='text-xs text-justify pt-1'>
-                      An Afrodiaspora-friendly travel company ensures more
-                      inclusion. For this reason, my company focuses on travel
-                      for PoC and aims to create a safe place for black
-                      travelers. Book tours and experiences!
-                    </p>
-                  </li>
-                  <li className='py-1'>
-                    <a
-                      href='https://www.zewdi.de/'
-                      rel='noreferrer'
-                      target='_blank'
-                      className='underline uppercase font-bold'
-                    >
-                      Zewdi
-                    </a>
-                    <p className='text-xs text-justify pt-1'>
-                      An Afrodiaspora-friendly travel company ensures more
-                      inclusion. For this reason, my company focuses on travel
-                      for PoC and aims to create a safe place for black
-                      travelers. Book tours and experiences!
+                      ERA prepared a zero waste xmas box full of organic and
+                      regional products directly from producers. Era is the
+                      organic box for all your groceries. Zero Waste. Customize
+                      your box and get it delivered weekly, directly from the
+                      source in reusable or plastic-free packaging.
                     </p>
                   </li>
                 </div>
