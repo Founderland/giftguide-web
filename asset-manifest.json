@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/giftguide-web/static/css/main.1ec7514a.css",
-    "main.js": "/giftguide-web/static/js/main.d90056bd.js",
+    "main.css": "/giftguide-web/static/css/main.84ab0812.css",
+    "main.js": "/giftguide-web/static/js/main.47e5438b.js",
     "static/media/6.png": "/giftguide-web/static/media/6.f5bd83632a016a08b5b5.png",
     "static/media/3.png": "/giftguide-web/static/media/3.a01cb019eeb3244667d3.png",
     "static/media/2.png": "/giftguide-web/static/media/2.99ab7a24f114015e6f18.png",
@@ -11,11 +11,11 @@
     "static/media/5.png": "/giftguide-web/static/media/5.fb37400d40536fca73ce.png",
     "static/media/miniGif.gif": "/giftguide-web/static/media/miniGif.def8d0825a8e7e80ab32.gif",
     "index.html": "/giftguide-web/index.html",
-    "main.1ec7514a.css.map": "/giftguide-web/static/css/main.1ec7514a.css.map",
-    "main.d90056bd.js.map": "/giftguide-web/static/js/main.d90056bd.js.map"
+    "main.84ab0812.css.map": "/giftguide-web/static/css/main.84ab0812.css.map",
+    "main.47e5438b.js.map": "/giftguide-web/static/js/main.47e5438b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ec7514a.css",
-    "static/js/main.d90056bd.js"
+    "static/css/main.84ab0812.css",
+    "static/js/main.47e5438b.js"
   ]
 }
