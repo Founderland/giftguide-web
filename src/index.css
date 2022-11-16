@@ -12,6 +12,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.text-grotesk-b {
+  font-family: "Space Grotesk bold", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .text-mono {
   font-family: "Space Mono", monospace;
   -webkit-font-smoothing: antialiased;

@@ -171,10 +171,6 @@ function App() {
                 stroke-width='10.858'
               />
             </svg>
-
-            <h2 className='ml-8 text-grotesk text-2xl lg:text-2.5xl uppercase font-bold  '>
-              Gift Guide
-            </h2>
           </div>
           <div className='h-full flex items-end'>
             {icons.energized(
@@ -185,159 +181,183 @@ function App() {
           </div>
         </banner>
       </header>
-      <section className='flex flex-col justify-center w-full h-full space-y-4 mx-auto py-8'>
-        <div class=' w-5/6 mx-auto'>
-          <div class='flex flex-col-reverse lg:grid lg:grid-cols-10 grid-rows-2 '>
-            <div class='w-full h-full lg:row-span-full lg:col-span-6 lg:col-start-1 self-center text-white bg-black'>
-              <h1 class='text-2xl font-bold mt-0'>Title of the list</h1>
-              <ul>
+      <section className='flex flex-col justify-center w-full h-full mx-auto '>
+        <div className='flex justify-center bg-fpink w-full'>
+          <div className='max-w-2xl flex flex-col pb-5 lg:pb-12'>
+            <p className='text-center mt-5 lg:mt-12 text-grotesk text-2xl lg:text-2.5xl uppercase font-bold'>
+              Welcome to the 2022 Founderland Holiday Gift Guide!
+            </p>
+            <p className='mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
+              Kick holiday stress to the curb with one-stop shopping for
+              everyone on your list. Find unique products, events and
+              experiences, curated and produced by the womxn within the
+              Founderland community.{' '}
+            </p>
+            <p className='mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
+              Without further ado… It’s our pleasure to bring you the
+              Founderland’s Holiday Gift Guide!
+            </p>
+          </div>
+        </div>
+        <div className='max-w-3xl mx-auto lg:mt-8'>
+          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
+            <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
+              <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
+                Title of the list
+              </h1>
+              <ul className='mt-4'>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
               </ul>
             </div>
-            <div class='row-span-full lg:row-start-1 lg:col-end-11 lg:col-span-6 self-center'>
+            <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9'>
               <img
-                class='object-cover rounded-lg'
                 src={littleOnes}
                 alt=''
-                className='max-w-md lg:max-w-xl shadow-xl'
+                className='object-cover w-full shadow-xl'
               />
             </div>
           </div>
         </div>
-        <div class=' w-5/6 mx-auto'>
-          <div class='flex flex-col-reverse lg:grid lg:grid-cols-10 grid-rows-2 '>
-            <div class='w-full h-full lg:row-span-full lg:col-span-6 lg:col-start-1 self-center text-white bg-black'>
-              <h1 class='text-2xl font-bold mt-0'>Title of the list</h1>
-              <ul>
+        <div className='max-w-3xl mx-auto lg:mt-8'>
+          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
+            <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black '>
+              <h1 className='ml-2 mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
+                description
+              </h1>
+              <ul className='ml-4 mt-4'>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
               </ul>
             </div>
-            <div class='row-span-full lg:row-start-1 lg:col-end-11 lg:col-span-6 self-center'>
+            <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9'>
               <img
-                class='object-cover rounded-lg'
                 src={seflCare}
                 alt=''
-                className='max-w-md lg:max-w-xl shadow-xl'
+                className='object-cover w-full shadow-xl'
               />
             </div>
           </div>
         </div>
-        <div class=' w-5/6 mx-auto'>
-          <div class='flex flex-col-reverse lg:grid lg:grid-cols-10 grid-rows-2 '>
-            <div class='w-full h-full lg:row-span-full lg:col-span-6 lg:col-start-1 self-center text-white bg-black'>
-              <h1 class='text-2xl font-bold mt-0'>Title of the list</h1>
-              <ul>
+        <div className='max-w-3xl mx-auto lg:mt-8'>
+          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
+            <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
+              <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
+                Title of the list
+              </h1>
+              <ul className='mt-4'>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
               </ul>
             </div>
-            <div class='row-span-full lg:row-start-1 lg:col-end-11 lg:col-span-6 self-center'>
+            <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9'>
               <img
-                class='object-cover rounded-lg'
                 src={home}
                 alt=''
-                className='max-w-md lg:max-w-xl shadow-xl'
+                className='object-cover w-full shadow-xl'
               />
             </div>
           </div>
         </div>
-        <div class=' w-5/6 mx-auto'>
-          <div class='flex flex-col-reverse lg:grid lg:grid-cols-10 grid-rows-2 '>
-            <div class='w-full h-full lg:row-span-full lg:col-span-6 lg:col-start-1 self-center text-white bg-black'>
-              <h1 class='text-2xl font-bold mt-0'>Title of the list</h1>
-              <ul>
+        <div className='max-w-3xl mx-auto lg:mt-8'>
+          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
+            <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black'>
+              <h1 className='ml-2 mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
+                description
+              </h1>
+              <ul className='ml-4 mt-4'>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
               </ul>
             </div>
-            <div class='row-span-full lg:row-start-1 lg:col-end-11 lg:col-span-6 self-center'>
+            <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9'>
               <img
-                class='object-cover rounded-lg'
                 src={happenings}
                 alt=''
-                className='max-w-md lg:max-w-xl shadow-xl'
+                className='object-cover w-full shadow-xl'
               />
             </div>
           </div>
         </div>
-        <div class=' w-5/6 mx-auto'>
-          <div class='flex flex-col-reverse lg:grid lg:grid-cols-10 grid-rows-2 '>
-            <div class='w-full h-full lg:row-span-full lg:col-span-6 lg:col-start-1 self-center text-white bg-black'>
-              <h1 class='text-2xl font-bold mt-0'>Title of the list</h1>
-              <ul>
+        <div className='max-w-3xl mx-auto lg:mt-8'>
+          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
+            <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
+              <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
+                Title of the list
+              </h1>
+              <ul className='mt-4'>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
               </ul>
             </div>
-            <div class='row-span-full lg:row-start-1 lg:col-end-11 lg:col-span-6 self-center'>
+            <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9'>
               <img
-                class='object-cover rounded-lg'
                 src={adventure}
                 alt=''
-                className='max-w-md lg:max-w-xl shadow-xl'
+                className='object-cover w-full shadow-xl'
               />
             </div>
           </div>
         </div>
-        <div class=' w-5/6 mx-auto'>
-          <div class='flex flex-col-reverse lg:grid lg:grid-cols-10 grid-rows-2 '>
-            <div class='w-full h-full lg:row-span-full lg:col-span-6 lg:col-start-1 self-center text-white bg-black'>
-              <h1 class='text-2xl font-bold mt-0'>Title of the list</h1>
-              <ul>
+        <div className='max-w-3xl mx-auto lg:mt-8'>
+          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
+            <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
+              <h1 className='ml-2 mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
+                description
+              </h1>
+              <ul className='ml-4 mt-4'>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
               </ul>
             </div>
-            <div class='row-span-full lg:row-start-1 lg:col-end-11 lg:col-span-6 self-center'>
+            <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9'>
               <img
-                class='object-cover rounded-lg'
                 src={beautyBody}
                 alt=''
-                className='max-w-md lg:max-w-xl shadow-xl'
+                className='object-cover w-full shadow-xl'
               />
             </div>
           </div>
         </div>
-        <div class=' w-5/6 mx-auto'>
-          <div class='flex flex-col-reverse lg:grid lg:grid-cols-10 grid-rows-2 '>
-            <div class='w-full h-full lg:row-span-full lg:col-span-6 lg:col-start-1 self-center text-white bg-black'>
-              <h1 class='text-2xl font-bold mt-0'>Title of the list</h1>
-              <ul>
+        <div className='max-w-3xl mx-auto lg:mt-8'>
+          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
+            <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
+              <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
+                Title of the list
+              </h1>
+              <ul className='mt-4'>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
                 <li>Product</li>
               </ul>
             </div>
-            <div class='row-span-full lg:row-start-1 lg:col-end-11 lg:col-span-6 self-center'>
+            <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9'>
               <img
-                class='object-cover rounded-lg'
                 src={foodDrinks}
                 alt=''
-                className='max-w-md lg:max-w-xl shadow-xl'
+                className='object-cover w-full shadow-xl'
               />
             </div>
           </div>
         </div>
       </section>
-      <footer className='md:px-4 lg:px-8 lg:pt-4 bg-black text-white w-full flex flex-col'>
+      <footer className='md:px-4 lg:px-8 pt-4 bg-black text-white w-full flex flex-col lg:mt-8'>
         <links className='w-full flex flex-grow text-grotesk uppercase p-5 text-sm tracking-wider space-x-8'>
-          <div class='flex flex-col space-y-2'>
-            <div class='font-bold'>Founderland</div>
+          <div className='flex flex-col space-y-2'>
+            <div className='font-bold'>Founderland</div>
             <a
               href='https://www.founderland.org/our-manifesto'
               className='max-w-xs hover:text-gray-500 transform ease-in-out duration-200'
@@ -389,8 +409,8 @@ function App() {
               Privacy Policy
             </a>
           </div>
-          <div class='flex flex-col space-y-2'>
-            <div class='font-bold'>Follow Us</div>
+          <div className='flex flex-col space-y-2'>
+            <div className='font-bold'>Follow Us</div>
 
             <a
               href='https://www.linkedin.com/company/founderland'
@@ -428,8 +448,8 @@ function App() {
               Substack
             </a>
           </div>
-          <div class='flex flex-col space-y-2'>
-            <div class='font-bold'>Community</div>
+          <div className='flex flex-col space-y-2'>
+            <div className='font-bold'>Community</div>
             <a
               href='https://founderland.herokuapp.com/form/founder'
               target='_blank'
@@ -468,6 +488,7 @@ function App() {
               href='https://founderland.herokuapp.com/newsletter'
               target='_blank'
               className='max-w-xs hover:text-gray-500 transform ease-in-out duration-200'
+              rel='noreferrer'
             >
               Newsletter
             </a>
