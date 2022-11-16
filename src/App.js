@@ -183,34 +183,39 @@ function App() {
       </header>
       <section className='flex flex-col justify-center w-full h-full mx-auto '>
         <div className='flex justify-center bg-fpink w-full'>
-          <div className='max-w-2xl flex flex-col pb-5 lg:pb-12'>
+          <div className='max-w-2xl flex flex-col pb-5 lg:pb-12 px-5 lg:px-0'>
             <p className='text-center mt-5 lg:mt-12 text-grotesk text-2xl lg:text-2.5xl uppercase font-bold'>
               Welcome to the 2022 Founderland Holiday Gift Guide!
             </p>
-            <p className='mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
+            <p className='mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl  text-justify'>
               Kick holiday stress to the curb with one-stop shopping for
               everyone on your list. Find unique products, events and
               experiences, curated and produced by the womxn within the
               Founderland community.{' '}
             </p>
             <p className='mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
-              Without further ado… It’s our pleasure to bring you the
-              Founderland’s Holiday Gift Guide!
+              Without further ado… It’s our pleasure to bring you Founderland’s
+              Holiday Gift Guide!
             </p>
           </div>
         </div>
         <div className='max-w-5xl mx-auto lg:mt-8'>
-          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
+          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 lg:grid-rows-6'>
             <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
-              <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
-                Title of the list
-              </h1>
-              <ul className='mt-4'>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-              </ul>
+              <div className='px-4 mt-4 lg:mt-8 w-full lg:grid lg:grid-cols-3 lg:grid-rows-4'>
+                <h1 className=' text-grotesk font-normal text-base lg:text-xl lg:row-start-4 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+                  👶👧🧒 It’s all fun and games for the little humans in our
+                  lives. You’ll find puzzles, books, dolls, toys and educational
+                  activities to keep the tiny minds entertained in 2023 - both
+                  to purchase or to rent!{' '}
+                </h1>
+                <ul className=' lg:row-start-1 lg:row-span-3 lg:col-span-1 lg:col-start-3'>
+                  <li>Product</li>
+                  <li>Product</li>
+                  <li>Product</li>
+                  <li>Product</li>
+                </ul>
+              </div>
             </div>
             <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9'>
               <img
@@ -225,7 +230,9 @@ function App() {
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black '>
               <h1 className='ml-2 mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
-                description
+                🤟💙 💆 Treat them (and yourself!) to coaching and guided
+                sessions on relationship building, wellness training, and
+                anti-stress practices.
               </h1>
               <ul className='ml-4 mt-4'>
                 <li>Product</li>
@@ -247,7 +254,9 @@ function App() {
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
               <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
-                Title of the list
+                🐱🪴🏡 We all know that people with a cozy home, great decor
+                taste and a furry friend to cuddle up with. This list is for
+                them!
               </h1>
               <ul className='mt-4'>
                 <li>Product</li>
@@ -269,7 +278,9 @@ function App() {
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black'>
               <h1 className='ml-2 mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
-                description
+                📲 ✈️ 📅 This list is for the doers: For the people who can not
+                stop doing, learning, and growing and somehow keep it all
+                together.
               </h1>
               <ul className='ml-4 mt-4'>
                 <li>Product</li>
@@ -291,7 +302,9 @@ function App() {
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
               <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
-                Title of the list
+                ⛰🚴‍♀️🌻 For outdoor lovers, flower-children, and
+                adventure-seekers! Enjoy everything from city-tours, curated
+                vacation homes and subscriptions to grow your garden.
               </h1>
               <ul className='mt-4'>
                 <li>Product</li>
@@ -313,7 +326,8 @@ function App() {
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black'>
               <h1 className='ml-2 mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
-                description
+                💃💅🕺 From hair to health, to coaching and clothes… these gifts
+                are for those who love to pamper and prosper!
               </h1>
               <ul className='ml-4 mt-4'>
                 <li>Product</li>
@@ -335,7 +349,9 @@ function App() {
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
               <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
-                Title of the list
+                🍷🫖🍰 This list has something for literally everyone: For the
+                foodies, cocktail lovers, wine-o’s, bio-babes, and more! You may
+                even find something to #treatyoself this holiday season.
               </h1>
               <ul className='mt-4'>
                 <li>Product</li>
