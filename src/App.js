@@ -341,7 +341,7 @@ function App() {
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 lg:grid-rows-6'>
             <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9 text-white bg-black'>
               <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-5'>
-                <h1 className='bg-fpink p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-5 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+                <h1 className=' p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-5 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
                   🐱🪴🏡 We all know that people with a cozy home, great decor
                   taste and a furry friend to cuddle up with. This list is for
                   them!
