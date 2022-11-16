@@ -687,7 +687,7 @@ function App() {
                     </p>
                   </li>
                 </div>
-                <div className='flex  space-x-4 px-4 pt-4 lg:row-start-4 lg:row-span-1 lg:col-span-full lg:col-start-1'>
+                <div className='flex flex-col lg:flex-row lg:space-x-4 px-4 pt-4 lg:row-start-4 lg:row-span-1 lg:col-span-full lg:col-start-1'>
                   <li className='py-1'>
                     <a
                       href='https://ikook.co.uk/'
@@ -750,7 +750,7 @@ function App() {
       <footer className='md:px-4 lg:px-8 pt-4 bg-black text-white w-full flex flex-col lg:mt-8'>
         <links className='w-full flex flex-grow text-grotesk uppercase p-5 text-sm tracking-wider space-x-8'>
           <div className='flex flex-col space-y-2'>
-            <div className='font-bold'>Founderland</div>
+            <div className='text-grotesk-b font-bold'>Founderland</div>
             <a
               href='https://www.founderland.org/our-manifesto'
               className='max-w-xs hover:text-gray-500 transform ease-in-out duration-200'
@@ -803,7 +803,7 @@ function App() {
             </a>
           </div>
           <div className='flex flex-col space-y-2'>
-            <div className='font-bold'>Follow Us</div>
+            <div className='text-grotesk-b font-bold'>Follow Us</div>
 
             <a
               href='https://www.linkedin.com/company/founderland'
@@ -842,7 +842,7 @@ function App() {
             </a>
           </div>
           <div className='flex flex-col space-y-2'>
-            <div className='font-bold'>Community</div>
+            <div className='text-grotesk-b font-bold'>Community</div>
             <a
               href='https://founderland.herokuapp.com/form/founder'
               target='_blank'
