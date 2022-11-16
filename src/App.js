@@ -199,7 +199,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className='max-w-3xl mx-auto lg:mt-8'>
+        <div className='max-w-5xl mx-auto lg:mt-8'>
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
               <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
@@ -221,7 +221,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='max-w-3xl mx-auto lg:mt-8'>
+        <div className='max-w-5xl mx-auto lg:mt-8'>
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black '>
               <h1 className='ml-2 mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
@@ -243,7 +243,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='max-w-3xl mx-auto lg:mt-8'>
+        <div className='max-w-5xl mx-auto lg:mt-8'>
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
               <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
@@ -265,7 +265,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='max-w-3xl mx-auto lg:mt-8'>
+        <div className='max-w-5xl mx-auto lg:mt-8'>
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black'>
               <h1 className='ml-2 mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
@@ -287,7 +287,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='max-w-3xl mx-auto lg:mt-8'>
+        <div className='max-w-5xl mx-auto lg:mt-8'>
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
               <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
@@ -309,9 +309,9 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='max-w-3xl mx-auto lg:mt-8'>
+        <div className='max-w-5xl mx-auto lg:mt-8'>
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
-            <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
+            <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black'>
               <h1 className='ml-2 mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
                 description
               </h1>
@@ -322,7 +322,7 @@ function App() {
                 <li>Product</li>
               </ul>
             </div>
-            <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9'>
+            <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9'>
               <img
                 src={beautyBody}
                 alt=''
@@ -331,7 +331,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='max-w-3xl mx-auto lg:mt-8'>
+        <div className='max-w-5xl mx-auto lg:mt-8'>
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
             <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
               <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
