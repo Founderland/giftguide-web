@@ -1,14 +1,14 @@
 # build environment
-FROM node:alpine as build
-WORKDIR /app
-ENV PATH /app/node_modules/.bin:$PATH
-COPY package.json ./
-RUN yarn
-COPY . ./
-RUN yarn run build
+FROM node:alpine 
 
-# production environment
-FROM nginx:stable-alpine
-COPY --from=build /app/build /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+WORKDIR /app
+
+COPY package.json ./
+
+COPY . ./
+
+RUN yarn
+
+CMD ["yarn", "start"]
+
+EXPOSE 3000

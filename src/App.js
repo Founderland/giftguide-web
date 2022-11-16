@@ -580,7 +580,7 @@ function App() {
                   </li>
                   <li className='py-1'>
                     <a
-                      href='#REF'
+                      href='http://www.nbefitness.com/yic'
                       rel='noreferrer'
                       target='_blank'
                       className='underline uppercase font-bold'
@@ -719,7 +719,7 @@ function App() {
                   </li>
                   <li className='py-1'>
                     <a
-                      href='#REF'
+                      href='https://www.erazerowaste.com/'
                       rel='noreferrer'
                       target='_blank'
                       className='underline uppercase font-bold'
