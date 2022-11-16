@@ -12,8 +12,8 @@ function App() {
   const year = new Date().getFullYear()
   return (
     <div className='h-full w-full flex flex-col items-center overflow-y-scroll'>
-      <header className='w-full flex justify-center bg-black text-white'>
-        <banner className='max-w-4xl flex items-center '>
+      <div className='w-full flex justify-center bg-black text-white'>
+        <div className='max-w-4xl flex items-center '>
           <div>
             {icons.warmth(
               `w-24 h-24 text-flime fill-current`,
@@ -97,7 +97,7 @@ function App() {
                 width='494.439'
                 height='42.858'
                 stroke='black'
-                stroke-width='10.858'
+                strokeWidth='10.858'
               />
             </svg>
             <svg
@@ -168,7 +168,7 @@ function App() {
                 width='136.705'
                 height='42.858'
                 stroke='black'
-                stroke-width='10.858'
+                strokeWidth='10.858'
               />
             </svg>
           </div>
@@ -179,8 +179,8 @@ function App() {
               0
             )}
           </div>
-        </banner>
-      </header>
+        </div>
+      </div>
       <section className='flex flex-col justify-center w-full h-full mx-auto '>
         <div className='flex justify-center bg-fpink w-full'>
           <div className='max-w-2xl flex flex-col pb-5 lg:pb-12 px-5 lg:px-0'>
@@ -737,7 +737,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9'>
+            <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9'>
               <img
                 src={foodDrinks}
                 alt=''
@@ -747,8 +747,8 @@ function App() {
           </div>
         </div>
       </section>
-      <footer className='md:px-4 lg:px-8 pt-4 bg-black text-white w-full flex flex-col lg:mt-8'>
-        <links className='w-full flex flex-grow text-grotesk uppercase p-5 text-sm tracking-wider space-x-8'>
+      <footer className='md:px-8 lg:px-24 pt-4 bg-black text-white w-full flex flex-col lg:mt-8'>
+        <div className='w-full flex flex-grow text-grotesk uppercase p-5 text-sm tracking-wider space-x-8'>
           <div className='flex flex-col space-y-2'>
             <div className='text-grotesk-b font-bold'>Founderland</div>
             <a
@@ -893,7 +893,7 @@ function App() {
               Donate
             </a>
           </div>
-        </links>
+        </div>
         <p className='w-full text-center text-mono text-xs my-4'>
           © {year} Founderland gUG (haftungsbeschränkt)
         </p>
