@@ -1083,23 +1083,6 @@ const haven_II = (outer, inner, i) => (
   </svg>
 )
 
-const your_letter = (outer, inner, i, letter) => (
-  <svg
-    xmlns='http://www.w3.org/2000/svg'
-    id='Layer_1'
-    data-name='Layer 1'
-    className={outer}
-    key={i}
-    viewBox='0 0 1080 1080'
-  >
-    <rect width='1081.02' height='1080' />
-    <path
-      className={inner}
-      d='M947.89,836.25H719.75l-44.62-99.34H381.9l-44.62,99.34H110.41L376.07,244.78H682.15Zm-343-270.8L528.45,410.59,452,565.45Z'
-    />
-  </svg>
-)
-
 const icons = {
   affirmative,
   audible,
