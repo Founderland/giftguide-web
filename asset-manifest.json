@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/giftguide-web/static/css/main.732d9b3d.css",
-    "main.js": "/giftguide-web/static/js/main.c0feccd0.js",
-    "static/media/6.png": "/giftguide-web/static/media/6.f5bd83632a016a08b5b5.png",
-    "static/media/3.png": "/giftguide-web/static/media/3.a01cb019eeb3244667d3.png",
-    "static/media/2.png": "/giftguide-web/static/media/2.99ab7a24f114015e6f18.png",
-    "static/media/8.png": "/giftguide-web/static/media/8.2732f9692365e2e11390.png",
-    "static/media/7.png": "/giftguide-web/static/media/7.2a57ce92f328671410c9.png",
-    "static/media/4.png": "/giftguide-web/static/media/4.7235b6fe1775d7774b80.png",
-    "static/media/5.png": "/giftguide-web/static/media/5.fb37400d40536fca73ce.png",
-    "static/media/miniGif.gif": "/giftguide-web/static/media/miniGif.def8d0825a8e7e80ab32.gif",
-    "index.html": "/giftguide-web/index.html",
-    "main.732d9b3d.css.map": "/giftguide-web/static/css/main.732d9b3d.css.map",
-    "main.c0feccd0.js.map": "/giftguide-web/static/js/main.c0feccd0.js.map"
+    "main.css": "/static/css/main.732d9b3d.css",
+    "main.js": "/static/js/main.b4a7090e.js",
+    "static/media/6.png": "/static/media/6.f5bd83632a016a08b5b5.png",
+    "static/media/3.png": "/static/media/3.a01cb019eeb3244667d3.png",
+    "static/media/2.png": "/static/media/2.99ab7a24f114015e6f18.png",
+    "static/media/8.png": "/static/media/8.2732f9692365e2e11390.png",
+    "static/media/7.png": "/static/media/7.2a57ce92f328671410c9.png",
+    "static/media/4.png": "/static/media/4.7235b6fe1775d7774b80.png",
+    "static/media/5.png": "/static/media/5.fb37400d40536fca73ce.png",
+    "static/media/miniGif.gif": "/static/media/miniGif.def8d0825a8e7e80ab32.gif",
+    "index.html": "/index.html",
+    "main.732d9b3d.css.map": "/static/css/main.732d9b3d.css.map",
+    "main.b4a7090e.js.map": "/static/js/main.b4a7090e.js.map"
   },
   "entrypoints": [
     "static/css/main.732d9b3d.css",
-    "static/js/main.c0feccd0.js"
+    "static/js/main.b4a7090e.js"
   ]
 }
