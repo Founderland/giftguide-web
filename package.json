@@ -1,8 +1,8 @@
 {
   "name": "giftguide",
   "version": "0.1.0",
-  "homepage": "https://founderland.github.io/giftguide-web",
-  "private": true,
+  "homepage": "https://founderland.github.io/giftguide-web/",
+  "private": false,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",
     "@testing-library/jest-dom": "^5.16.5",

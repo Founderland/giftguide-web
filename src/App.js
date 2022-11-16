@@ -200,21 +200,63 @@ function App() {
           </div>
         </div>
         <div className='max-w-5xl mx-auto lg:mt-8'>
-          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 lg:grid-rows-6'>
-            <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
-              <div className='px-4 mt-4 lg:mt-8 w-full lg:grid lg:grid-cols-3 lg:grid-rows-4'>
-                <h1 className=' text-grotesk font-normal text-base lg:text-xl lg:row-start-4 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 lg:grid-rows-5'>
+            <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9 text-white bg-black'>
+              <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-4'>
+                <h1 className='bg-flime text-black p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-4 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
                   👶👧🧒 It’s all fun and games for the little humans in our
                   lives. You’ll find puzzles, books, dolls, toys and educational
                   activities to keep the tiny minds entertained in 2023 - both
-                  to purchase or to rent!{' '}
+                  to purchase or to rent!
                 </h1>
-                <ul className=' lg:row-start-1 lg:row-span-3 lg:col-span-1 lg:col-start-3'>
-                  <li>Product</li>
-                  <li>Product</li>
-                  <li>Product</li>
-                  <li>Product</li>
-                </ul>
+                <div className='px-4 pt-4 lg:row-start-1 lg:row-span-3 lg:col-span-1 lg:col-start-3'>
+                  <li className='py-1'>
+                    <a
+                      href='https://phillyandfriends.com/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Philly & Friends
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      Children's lifestyle & toy brand on a mission to add a
+                      drop of colour and diversity to the playroom while
+                      empowering literacy in underprivileged children
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.cresory.com/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Cresory
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      A platform for kids to learn about finance through fun and
+                      games.
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.tribu-box.com/en'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Tribu Box
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      We at Tribu rent toy boxes, which are filled with
+                      montessori inspired. pedagocial toys. We have different
+                      subscriptions from 1,6, or 12 months. The toy box can be
+                      chosen from the client, depending on how old his/her child
+                      is.
+                    </p>
+                  </li>
+                </div>
               </div>
             </div>
             <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9'>
@@ -227,21 +269,66 @@ function App() {
           </div>
         </div>
         <div className='max-w-5xl mx-auto lg:mt-8'>
-          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
+          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-5'>
             <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black '>
-              <h1 className='ml-2 mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
-                🤟💙 💆 Treat them (and yourself!) to coaching and guided
-                sessions on relationship building, wellness training, and
-                anti-stress practices.
-              </h1>
-              <ul className='ml-4 mt-4'>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-              </ul>
+              <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-5'>
+                <h1 className='bg-fblue p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-1 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+                  🤟💙 💆 Treat them (and yourself!) to coaching and guided
+                  sessions on relationship building, wellness training, and
+                  anti-stress practices.
+                </h1>
+                <div className='px-4 pt-4 lg:row-start-2 lg:row-span-4 lg:col-span-1 lg:col-start-1'>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.unwindyourmind.de/en/onlinegym'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      UNWINDYOURMIND
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      A membership to the Antistress Academy, where you'll learn
+                      how to cope with stress. Learn different methods and get
+                      access to our physical and mental health online studio.
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.powermindclub.com/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Power Mind Club
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      1:1 online relationship coaching session with one of our
+                      experts.
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.mogamiwellness.com/about'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Mogami
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      Empowering individuals to achieve sustainable personal
+                      wellness lives through transformative customer-centric
+                      Japanese wellness services. Explore Mogami's wellness
+                      services that can strengthen you, your organization, and
+                      your community's well-being from the inside out. Offering
+                      group wellness events, 1:1 Coaching, and online courses.
+                    </p>
+                  </li>
+                </div>
+              </div>
             </div>
-            <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9'>
+            <div className='lg:row-start-2 lg:row-span-4 lg:col-start-4 lg:col-span-9'>
               <img
                 src={seflCare}
                 alt=''
@@ -251,19 +338,63 @@ function App() {
           </div>
         </div>
         <div className='max-w-5xl mx-auto lg:mt-8'>
-          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
-            <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
-              <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
-                🐱🪴🏡 We all know that people with a cozy home, great decor
-                taste and a furry friend to cuddle up with. This list is for
-                them!
-              </h1>
-              <ul className='mt-4'>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-              </ul>
+          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 lg:grid-rows-6'>
+            <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9 text-white bg-black'>
+              <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-5'>
+                <h1 className='bg-fpink p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-5 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+                  🐱🪴🏡 We all know that people with a cozy home, great decor
+                  taste and a furry friend to cuddle up with. This list is for
+                  them!
+                </h1>
+                <div className='px-4 pt-4 lg:row-start-1 lg:row-span-4 lg:col-span-1 lg:col-start-3'>
+                  <li className='py-1'>
+                    <a
+                      href='https://gubns.co/people/atelier-hen'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Atelier Hen
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      Atelier Hen explores the hand-tufting technique of needle
+                      punching to create topographic landscapes on miniature
+                      rugs, wall tapestries as well as small pouche
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://kusuka.org/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Kusuka
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      At Kusuka, we work with women artisans and enterpreneurs
+                      from Kenya, Uganda, and Senegal to create beautiful
+                      collections of handwoven baskets. The handmade baskets are
+                      made from the natural sisal-fibre and you can even create
+                      your custom basket with your preferred style.
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.feniska.com/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Feniska
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      An all-new way to monitor your pet’s health! Automatically
+                      track weight, sleep and daily patterns.
+                    </p>
+                  </li>
+                </div>
+              </div>
             </div>
             <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9'>
               <img
@@ -276,18 +407,61 @@ function App() {
         </div>
         <div className='max-w-5xl mx-auto lg:mt-8'>
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
-            <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black'>
-              <h1 className='ml-2 mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
-                📲 ✈️ 📅 This list is for the doers: For the people who can not
-                stop doing, learning, and growing and somehow keep it all
-                together.
-              </h1>
-              <ul className='ml-4 mt-4'>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-              </ul>
+            <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9 text-white bg-black '>
+              <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-5'>
+                <h1 className='bg-fred p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-1 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+                  📲 ✈️ 📅 This list is for the doers: For the people who can
+                  not stop doing, learning, and growing and somehow keep it all
+                  together.
+                </h1>
+                <div className='px-4 pt-4 lg:row-start-2 lg:row-span-4 lg:col-span-1 lg:col-start-1'>
+                  <li className='py-1'>
+                    <a
+                      href='https://africapodcastfestival.com/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Africa Podcast Day 2023
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      Tickets to Africa’s biggest podcast festival during the
+                      2023 edition of Africa Podcast Day!
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://miniglotte.com/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Miniglotte
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      “Welcome to Our Family” is a set of 30+ cards that help
+                      immortalize the special things about your family. Not only
+                      do we help you record the usual memories like the first
+                      bath, first tooth or first haircut, but we also help you
+                      reflect on your family traditions with specific questions.
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='http://www.playroom-app.com/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      playroom-app
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      Playroom is an app with a subscription service that lets
+                      you manage your entire family life at your fingertips.
+                    </p>
+                  </li>
+                </div>
+              </div>
             </div>
             <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9'>
               <img
@@ -300,18 +474,61 @@ function App() {
         </div>
         <div className='max-w-5xl mx-auto lg:mt-8'>
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
-            <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
-              <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
-                ⛰🚴‍♀️🌻 For outdoor lovers, flower-children, and
-                adventure-seekers! Enjoy everything from city-tours, curated
-                vacation homes and subscriptions to grow your garden.
-              </h1>
-              <ul className='mt-4'>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-              </ul>
+            <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9 text-white bg-black'>
+              <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-4'>
+                <h1 className='bg-flime text-black p-6 mt-1 text-grotesk font-normal text-base lg:text-xl lg:row-start-4 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+                  ⛰🚴‍♀️🌻 For outdoor lovers, flower-children, and
+                  adventure-seekers! Enjoy everything from city-tours, curated
+                  vacation homes and subscriptions to grow your garden.
+                </h1>
+                <div className='px-4 pt-4 lg:row-start-1 lg:row-span-3 lg:col-span-1 lg:col-start-3'>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.staycationcollection.com/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Staycation Collection
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      A travel agency for the digital age. Give a membership to
+                      a curated collection of 150+ cabins, hotels and
+                      Ferienwohnungen, as well as personalised recommendations
+                      of where to go.
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='http://www.bloommag.co.uk/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Bloom Magazine
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      Books, Magazine subscriptions, and all things flowers!
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.zewdi.de/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Zewdi
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      An Afrodiaspora-friendly travel company ensures more
+                      inclusion. For this reason, my company focuses on travel
+                      for PoC and aims to create a safe place for black
+                      travelers. Book tours and experiences!
+                    </p>
+                  </li>
+                </div>
+              </div>
             </div>
             <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9'>
               <img
@@ -323,20 +540,77 @@ function App() {
           </div>
         </div>
         <div className='max-w-5xl mx-auto lg:mt-8'>
-          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
-            <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black'>
-              <h1 className='ml-2 mt-4 lg:mt-8 text-grotesk font-normal text-base lg:text-xl'>
-                💃💅🕺 From hair to health, to coaching and clothes… these gifts
-                are for those who love to pamper and prosper!
-              </h1>
-              <ul className='ml-4 mt-4'>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-              </ul>
+          <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-5'>
+            <div className='lg:row-start-1 lg:row-span-4 lg:col-start-1 lg:col-span-9 text-white bg-black '>
+              <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-5'>
+                <h1 className='bg-fpink p-6 text-grotesk font-normal text-base lg:text-xl lg:row-start-1 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+                  💃💅🕺 From hair to health, to coaching and clothes… these
+                  gifts are for those who love to pamper and prosper!
+                </h1>
+                <div className='px-4 pt-4 lg:row-start-2 lg:row-span-4 lg:col-span-1 lg:col-start-1'>
+                  <li className='py-1'>
+                    <a
+                      href='https://otjnaturals.com/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Otj naturals
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      OTJ Naturals, an hair and skincare brand who supplies
+                      organic products suitable for all hair and skin types.
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://root2tip.co.uk/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      root2tip
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      ROOT2TiP is a company specialising in the manufacturing of
+                      naturally inspired Haircare products, the focus being on
+                      natural as I believe strongly in the power of Mother
+                      Nature and the dangers of unnecessary chemicals.
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='#REF'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      NBE NATION Sessions
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      1:1 and group sessions on an accessible wellbeing platform
+                      making it easy and fun to look after your health.
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://jedid.fr/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Jedid
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      Transform, edit, create. Enjoy upcycled clothing creations
+                      and/or find a seamstress near you who will help you
+                      redesign and reinvent pre-loved clothing.
+                    </p>
+                  </li>
+                </div>
+              </div>
             </div>
-            <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9'>
+            <div className='lg:row-start-2 lg:row-span-4 lg:col-start-4 lg:col-span-9'>
               <img
                 src={beautyBody}
                 alt=''
@@ -347,18 +621,125 @@ function App() {
         </div>
         <div className='max-w-5xl mx-auto lg:mt-8'>
           <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 grid-rows-6'>
-            <div className='lg:row-start-3 lg:row-span-4 lg:col-start-4 lg:col-span-9 text-white bg-black'>
-              <h1 className='mt-5 lg:mt-12 text-grotesk text-xl lg:text-3xl uppercase font-normal'>
-                🍷🫖🍰 This list has something for literally everyone: For the
-                foodies, cocktail lovers, wine-o’s, bio-babes, and more! You may
-                even find something to #treatyoself this holiday season.
-              </h1>
-              <ul className='mt-4'>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-                <li>Product</li>
-              </ul>
+            <div className='lg:row-start-2 lg:row-span-5 lg:col-start-4 lg:col-span-9 text-white bg-black'>
+              <div className='p-4 lg:grid lg:grid-cols-3 lg:grid-rows-4'>
+                <h1 className='bg-fblue p-6 mt-1 text-grotesk font-normal text-base lg:text-xl lg:row-start-4 lg:row-span-1 lg:col-span-full lg:col-start-1 text-justify'>
+                  🍷🫖🍰 This list has something for literally everyone: For the
+                  foodies, cocktail lovers, wine-o’s, bio-babes, and more! You
+                  may even find something to #treatyoself this holiday season.
+                </h1>
+                <div className='px-4 pt-4 lg:row-start-1 lg:row-span-3 lg:col-span-1 lg:col-start-3'>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.staycationcollection.com/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Staycation Collection
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      A travel agency for the digital age. Give a membership to
+                      a curated collection of 150+ cabins, hotels and
+                      Ferienwohnungen, as well as personalised recommendations
+                      of where to go.
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='http://www.bloommag.co.uk/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Bloom Magazine
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      Books, Magazine subscriptions, and all things flowers!
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.zewdi.de/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Zewdi
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      An Afrodiaspora-friendly travel company ensures more
+                      inclusion. For this reason, my company focuses on travel
+                      for PoC and aims to create a safe place for black
+                      travelers. Book tours and experiences!
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.zewdi.de/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Zewdi
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      An Afrodiaspora-friendly travel company ensures more
+                      inclusion. For this reason, my company focuses on travel
+                      for PoC and aims to create a safe place for black
+                      travelers. Book tours and experiences!
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.zewdi.de/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Zewdi
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      An Afrodiaspora-friendly travel company ensures more
+                      inclusion. For this reason, my company focuses on travel
+                      for PoC and aims to create a safe place for black
+                      travelers. Book tours and experiences!
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.zewdi.de/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Zewdi
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      An Afrodiaspora-friendly travel company ensures more
+                      inclusion. For this reason, my company focuses on travel
+                      for PoC and aims to create a safe place for black
+                      travelers. Book tours and experiences!
+                    </p>
+                  </li>
+                  <li className='py-1'>
+                    <a
+                      href='https://www.zewdi.de/'
+                      rel='noreferrer'
+                      target='_blank'
+                      className='underline uppercase font-bold'
+                    >
+                      Zewdi
+                    </a>
+                    <p className='text-xs text-justify pt-1'>
+                      An Afrodiaspora-friendly travel company ensures more
+                      inclusion. For this reason, my company focuses on travel
+                      for PoC and aims to create a safe place for black
+                      travelers. Book tours and experiences!
+                    </p>
+                  </li>
+                </div>
+              </div>
             </div>
             <div className='lg:row-start-1 lg:row-span-5 lg:col-start-1 lg:col-span-9'>
               <img
